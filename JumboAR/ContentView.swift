@@ -8,11 +8,8 @@
 import SwiftUI
 import RealityKit
 
-let arView = ARView(frame: .zero)
-
 struct ContentView : View {
-//    @StateObject var globalString = GlobalString()
-    @State private var selectedProduct = "Juice"
+    @State private var selectedProduct = ""
     
     var body: some View {
         ZStack {
@@ -49,31 +46,15 @@ struct ContentView : View {
     }
 }
 
-//class GlobalString: ObservableObject {
-//  @Published var selectedProduct = ""
-//}
+let arView = ARView(frame: .zero)
 
 struct ARViewContainer: UIViewRepresentable {
     var selectedProduct: String
     
     func makeUIView(context: Context) -> ARView {
         // Load the "Box" scene from the "Experience" Reality File
-        let milkAnchor = try! Experience.loadMilk()
-        let juiceAnchor = try! Experience.loadJuice()
         let testAnchor = try! Experience.loadTestScene()
-        print("arview \(selectedProduct)")
         // Add the box anchor to the scene
-        if(selectedProduct=="Milk"){
-            print("Showing milk")
-            arView.scene.anchors.removeAll()
-            arView.scene.anchors.append(milkAnchor)
-        }
-        if(selectedProduct=="Juice"){
-            print("Showing juice")
-            arView.scene.anchors.removeAll()
-            arView.scene.anchors.append(juiceAnchor)
-        }
-        
         arView.scene.anchors.append(testAnchor)
         
         return arView
@@ -81,7 +62,7 @@ struct ARViewContainer: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: ARView, context: Context) {
-        print("kur",selectedProduct)
+        print("selected product",selectedProduct)
         let milkAnchor = try! Experience.loadMilk()
         let juiceAnchor = try! Experience.loadJuice()
         if(selectedProduct=="Milk"){
@@ -95,7 +76,6 @@ struct ARViewContainer: UIViewRepresentable {
             arView.scene.anchors.append(juiceAnchor)
         }
     }
-    
 }
 
 #if DEBUG

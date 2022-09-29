@@ -1,3 +1,22 @@
 [
-
+  {
+    "libraryIdentifier" : "8de613260a56669dd490120f8ca03bcc",
+    "format" : "model",
+    "displayName" : "Vifit.usdz"
+  },
+  {
+    "libraryIdentifier" : "2a8e037603d604144ac5c3b66ec9c170",
+    "format" : "image",
+    "displayName" : "IMG_0047.jpeg"
+  },
+  {
+    "libraryIdentifier" : "c3c47eab7ce313393079e6363c8f7876",
+    "format" : "image",
+    "displayName" : "IMG_0048.heic"
+  },
+  {
+    "libraryIdentifier" : "a1aab3432e8d82cfd59747f886669d0c",
+    "format" : "model",
+    "displayName" : "juice.usdz"
+  }
 ]

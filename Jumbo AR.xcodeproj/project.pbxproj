@@ -35,17 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B7F71F328E5917900327B2E /* JumboAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumboAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7F71F328E5917900327B2E /* Jumbo AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jumbo AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7F71F628E5917900327B2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B7F71F828E5917900327B2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B7F71FA28E5917900327B2E /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		2B7F71FC28E5917A00327B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B7F71FF28E5917A00327B2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2B7F720528E5917A00327B2E /* JumboARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumboARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7F720528E5917A00327B2E /* Jumbo ARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jumbo ARTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7F720928E5917A00327B2E /* JumboARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumboARTests.swift; sourceTree = "<group>"; };
-		2B7F720F28E5917A00327B2E /* JumboARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumboARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7F720F28E5917A00327B2E /* Jumbo ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jumbo ARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7F721328E5917A00327B2E /* JumboARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumboARUITests.swift; sourceTree = "<group>"; };
 		2B7F721528E5917A00327B2E /* JumboARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumboARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B7F722228E5A38D00327B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +87,9 @@
 		2B7F71F428E5917900327B2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B7F71F328E5917900327B2E /* JumboAR.app */,
-				2B7F720528E5917A00327B2E /* JumboARTests.xctest */,
-				2B7F720F28E5917A00327B2E /* JumboARUITests.xctest */,
+				2B7F71F328E5917900327B2E /* Jumbo AR.app */,
+				2B7F720528E5917A00327B2E /* Jumbo ARTests.xctest */,
+				2B7F720F28E5917A00327B2E /* Jumbo ARUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +97,7 @@
 		2B7F71F528E5917900327B2E /* JumboAR */ = {
 			isa = PBXGroup;
 			children = (
+				2B7F722228E5A38D00327B2E /* Info.plist */,
 				2B7F71F628E5917900327B2E /* AppDelegate.swift */,
 				2B7F71F828E5917900327B2E /* ContentView.swift */,
 				2B7F71FA28E5917900327B2E /* Experience.rcproject */,
@@ -133,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B7F71F228E5917900327B2E /* JumboAR */ = {
+		2B7F71F228E5917900327B2E /* Jumbo AR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B7F721928E5917A00327B2E /* Build configuration list for PBXNativeTarget "JumboAR" */;
+			buildConfigurationList = 2B7F721928E5917A00327B2E /* Build configuration list for PBXNativeTarget "Jumbo AR" */;
 			buildPhases = (
 				2B7F71EF28E5917900327B2E /* Sources */,
 				2B7F71F028E5917900327B2E /* Frameworks */,
@@ -145,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = JumboAR;
+			name = "Jumbo AR";
 			productName = JumboAR;
-			productReference = 2B7F71F328E5917900327B2E /* JumboAR.app */;
+			productReference = 2B7F71F328E5917900327B2E /* Jumbo AR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2B7F720428E5917A00327B2E /* JumboARTests */ = {
+		2B7F720428E5917A00327B2E /* Jumbo ARTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B7F721C28E5917A00327B2E /* Build configuration list for PBXNativeTarget "JumboARTests" */;
+			buildConfigurationList = 2B7F721C28E5917A00327B2E /* Build configuration list for PBXNativeTarget "Jumbo ARTests" */;
 			buildPhases = (
 				2B7F720128E5917A00327B2E /* Sources */,
 				2B7F720228E5917A00327B2E /* Frameworks */,
@@ -163,14 +165,14 @@
 			dependencies = (
 				2B7F720728E5917A00327B2E /* PBXTargetDependency */,
 			);
-			name = JumboARTests;
+			name = "Jumbo ARTests";
 			productName = JumboARTests;
-			productReference = 2B7F720528E5917A00327B2E /* JumboARTests.xctest */;
+			productReference = 2B7F720528E5917A00327B2E /* Jumbo ARTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2B7F720E28E5917A00327B2E /* JumboARUITests */ = {
+		2B7F720E28E5917A00327B2E /* Jumbo ARUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B7F721F28E5917A00327B2E /* Build configuration list for PBXNativeTarget "JumboARUITests" */;
+			buildConfigurationList = 2B7F721F28E5917A00327B2E /* Build configuration list for PBXNativeTarget "Jumbo ARUITests" */;
 			buildPhases = (
 				2B7F720B28E5917A00327B2E /* Sources */,
 				2B7F720C28E5917A00327B2E /* Frameworks */,
@@ -181,9 +183,9 @@
 			dependencies = (
 				2B7F721128E5917A00327B2E /* PBXTargetDependency */,
 			);
-			name = JumboARUITests;
+			name = "Jumbo ARUITests";
 			productName = JumboARUITests;
-			productReference = 2B7F720F28E5917A00327B2E /* JumboARUITests.xctest */;
+			productReference = 2B7F720F28E5917A00327B2E /* Jumbo ARUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2B7F71EE28E5917900327B2E /* Build configuration list for PBXProject "JumboAR" */;
+			buildConfigurationList = 2B7F71EE28E5917900327B2E /* Build configuration list for PBXProject "Jumbo AR" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +224,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B7F71F228E5917900327B2E /* JumboAR */,
-				2B7F720428E5917A00327B2E /* JumboARTests */,
-				2B7F720E28E5917A00327B2E /* JumboARUITests */,
+				2B7F71F228E5917900327B2E /* Jumbo AR */,
+				2B7F720428E5917A00327B2E /* Jumbo ARTests */,
+				2B7F720E28E5917A00327B2E /* Jumbo ARUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		2B7F720728E5917A00327B2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2B7F71F228E5917900327B2E /* JumboAR */;
+			target = 2B7F71F228E5917900327B2E /* Jumbo AR */;
 			targetProxy = 2B7F720628E5917A00327B2E /* PBXContainerItemProxy */;
 		};
 		2B7F721128E5917A00327B2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2B7F71F228E5917900327B2E /* JumboAR */;
+			target = 2B7F71F228E5917900327B2E /* Jumbo AR */;
 			targetProxy = 2B7F721028E5917A00327B2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,9 +423,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"JumboAR/Preview Content\"";
+				DEVELOPMENT_TEAM = MU8GB47774;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_FILE = JumboAR/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -453,9 +456,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"JumboAR/Preview Content\"";
+				DEVELOPMENT_TEAM = MU8GB47774;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_FILE = JumboAR/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -492,7 +496,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumboAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JumboAR";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jumbo AR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jumbo AR";
 			};
 			name = Debug;
 		};
@@ -511,7 +515,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumboAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JumboAR";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jumbo AR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jumbo AR";
 			};
 			name = Release;
 		};
@@ -554,7 +558,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B7F71EE28E5917900327B2E /* Build configuration list for PBXProject "JumboAR" */ = {
+		2B7F71EE28E5917900327B2E /* Build configuration list for PBXProject "Jumbo AR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B7F721728E5917A00327B2E /* Debug */,
@@ -563,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B7F721928E5917A00327B2E /* Build configuration list for PBXNativeTarget "JumboAR" */ = {
+		2B7F721928E5917A00327B2E /* Build configuration list for PBXNativeTarget "Jumbo AR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B7F721A28E5917A00327B2E /* Debug */,
@@ -572,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B7F721C28E5917A00327B2E /* Build configuration list for PBXNativeTarget "JumboARTests" */ = {
+		2B7F721C28E5917A00327B2E /* Build configuration list for PBXNativeTarget "Jumbo ARTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B7F721D28E5917A00327B2E /* Debug */,
@@ -581,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B7F721F28E5917A00327B2E /* Build configuration list for PBXNativeTarget "JumboARUITests" */ = {
+		2B7F721F28E5917A00327B2E /* Build configuration list for PBXNativeTarget "Jumbo ARUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B7F722028E5917A00327B2E /* Debug */,

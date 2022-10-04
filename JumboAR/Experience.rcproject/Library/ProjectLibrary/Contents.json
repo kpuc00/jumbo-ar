@@ -18,5 +18,25 @@
     "libraryIdentifier" : "a1aab3432e8d82cfd59747f886669d0c",
     "format" : "model",
     "displayName" : "juice.usdz"
+  },
+  {
+    "libraryIdentifier" : "85e823e77cfd6aef821961f155e49ab9",
+    "format" : "model",
+    "displayName" : "ShowDetail.reality"
+  },
+  {
+    "libraryIdentifier" : "ca6076d178734d75dfbd0156a4fd2064",
+    "format" : "image",
+    "displayName" : "Sinaas-appel-sap.png"
+  },
+  {
+    "libraryIdentifier" : "29a27f698f0f9402f12def00bf8d17e1",
+    "format" : "image",
+    "displayName" : "Orange juice.png"
+  },
+  {
+    "libraryIdentifier" : "f04c6943898e2e498f855f6e8b83ab20",
+    "format" : "image",
+    "displayName" : "Orange juice.png"
   }
 ]

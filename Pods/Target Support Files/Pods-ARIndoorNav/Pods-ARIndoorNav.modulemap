@@ -1,0 +1,6 @@
+framework module Pods_ARIndoorNav {
+  umbrella header "Pods-ARIndoorNav-umbrella.h"
+
+  export *
+  module * { export * }
+}
